@@ -1,0 +1,14 @@
+{
+	"name": "andrew_yang_project",
+	"description" : "Node.JS file reading demo",
+	"version" : "0.0.1",
+	"scripts" : {
+		"start" : "node app.js"
+	},
+	"devDependencies" : {
+		"express" 	: "3.x",
+		"jade"		: "*",
+		"node-static" : "*",
+		"xml2js" : "*"
+	}
+}

@@ -1,0 +1,12 @@
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function () {
+		$('.btn').on('click', function () {
+			$.get('/readDataFromFile', function (data) {
+				window.data = data
+			})
+		})
+	})
+</script>
+<div class="btn" style="padding: 10px; background-color: #777; color: #fff; display: inline-block;">Click me</div>
+<div class="displayBox"></div>
